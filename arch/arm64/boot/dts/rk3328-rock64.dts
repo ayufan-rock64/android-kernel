@@ -93,6 +93,15 @@
 	};
 };
 
+&i2c1 {
+	rk805: rk805@18 {
+		rtc {
+			status = "okay";
+		};
+
+	};
+};
+
 &clk_core_dvfs_table {
 	operating-points = <
 		/* KHz	uV */
