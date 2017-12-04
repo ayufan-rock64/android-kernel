@@ -98,7 +98,6 @@
 		rtc {
 			status = "okay";
 		};
-
 	};
 };
 
